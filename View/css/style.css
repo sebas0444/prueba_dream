@@ -1,0 +1,830 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ * Description of style
+ *
+ * @author Sebastian Aldas 2018-04-05
+ */
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+}
+
+a
+{
+	text-decoration: none;
+	color: #000;
+}
+
+.main
+{
+	display: block;
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.main .contenedor
+{
+	display: block;
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.main .contenedor .img
+{
+	display: inline-block;
+	position: absolute;
+}
+
+.main .contenedor .img img
+{
+	width: 100%;
+}
+
+.main .contenedor .log
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 50%;
+	margin-top: 40%; 
+	float: left;
+}
+
+.log p
+{
+	display: inline-block;
+	width: 100%;
+	color: #ffffff;
+	font-size: 58px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.log a
+{
+	display: inline-block;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+.log div
+{
+	display: inline-block;
+	font-size: 72px;
+	padding: 10px 25px;
+	color: #ffffff;
+	background: #295CA9;
+}
+
+.main .contenedor .cont
+{
+	display: block;
+	width: 100%;
+	float: left;
+}
+
+.cont .cont_img
+{
+	display: inline-block;
+	width: 100%;
+	position: relative;
+}
+
+.cont .cont_img img
+{
+	width: 100%;
+	height: auto;
+}
+
+.cont .cont_img .menu
+{
+	width: 60%;
+	display: inline-block;
+	align-items: center;
+	position: absolute;
+	top: 8%;
+	left: 25%;
+	z-index: 10;
+}
+
+.cont .cont_img .menu .cont_menu
+{
+	width: 100%;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.cont .cont_img .menu .cont_menu a
+{
+	color: #ffffff;
+	font-size: 26px;
+	text-decoration: underline;
+	display: inline-block;
+	float: left;
+	padding: 5px 15px;
+	font-family: "Montserrat";
+}
+
+.cont .cont_img .info
+{
+	display: inline-block;
+	width: 50%;
+	position: absolute;
+	z-index: 10;
+	top: 10%;
+	left: 50%;
+	color: #ffffff;
+}
+
+.cont .cont_img .info .info_1
+{
+	margin-bottom: 10px;
+	font-size: 40px;
+	font-family: "Montserrat Black";
+}
+
+.cont .cont_img .info .info_2
+{
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-family: "Montserrat";
+}
+
+.cont .cont_img .info a
+{
+	display: inline-block;
+	padding: 10px;
+	color: #ffffff;
+	font-family: "Montserrat";
+	font-weight: 500;
+	font-size: 26px;
+	border: #ffffff solid 3px;
+}
+
+.cont .cont_img .calendar
+{
+	position: absolute;
+	width: 50%;
+	top: 25%;
+	left: 10%;
+}
+
+.cont .cont_img .calendar p
+{
+	display: inline-block;
+	color: #326B8E;
+	font-family: "Montserrat";
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+
+.cont .cont_img .calendar .calendario
+{
+	display: inline-block;
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.cont .cont_img .calendar .calendario .tiempo
+{
+	display: inline-block;
+	width: 20%;
+	float: left;
+	overflow: hidden;
+	padding: 15px;
+}
+
+.cont .cont_img .calendar .calendario .tiempo .fecha
+{
+	color: #ffffff;
+	font-size: 80px;
+	background: #72ABB3;
+	text-align: center;
+	border-radius: 20px 20px 0 0;
+		-o-border-radius: 20px 20px 0 0;
+		-ms-border-radius: 20px 20px 0 0;
+		-moz-border-radius: 20px 20px 0 0;
+		-webkit-border-radius: 20px 20px 0 0;
+	padding: 10px;
+}
+
+.cont .cont_img .calendar .calendario .tiempo .inf_time
+{
+	color: #ffffff;
+	font-size: 18px;
+	background: #356F7C;
+	text-align: center;
+	border-radius: 0 0 20px 20px;
+		-o-border-radius: 0 0 20px 20px;
+		-ms-border-radius: 0 0 20px 20px;
+		-moz-border-radius: 0 0 20px 20px;
+		-webkit-border-radius: 0 0 20px 20px;
+	padding: 10px;
+	font-family: "Montserrat";
+}
+
+.cont .cont_img .votacion
+{
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	padding: 5px 15px;
+	position: absolute;
+	z-index: 5;
+	top: 2%;
+}
+
+.cont .cont_img .votacion .encabezado
+{
+	display: inline-block;
+	width: 100%;
+	padding: 20px 30px;
+	border-bottom: 5px solid #ffffff;
+	text-align: center;
+	color:  #ffffff;
+	font-size: 70px;
+	font-weight: bold;
+	font-family: "Montserrat";
+}
+
+.cont .cont_img .votacion .contenido
+{
+	display: inline-block;
+	width: 100%;
+	padding: 20px 40px;
+}
+
+#div_participantes
+{
+	display: block;
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.cont .cont_img .votacion .contenido .participante
+{
+	width: 25%;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+	position: relative;
+}
+
+.cont .cont_img .votacion .contenido .participante img
+{
+	box-shadow: 2px 2px 2px #000;
+	border: 2px solid #ffffff;
+}
+
+.cont .cont_img .votacion .contenido .participante .info_participante
+{
+	position: absolute;
+	width: 95%;
+	z-index: 10;
+	color: #ffffff;
+	text-align: center;
+	top: 70%;
+	font-size: 32px;
+	font-weight: bold;
+	font-family: "Montserrat";
+	text-shadow: 2px 2px #000;
+}
+
+.main .contenedor .inf_part
+{
+	width: 70%;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.inf_part img
+{
+	width: 100%;
+}
+
+.inf_part .foto
+{
+	height: 600px;
+	width: 100%;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+}
+
+.inf_part .footer
+{
+	height: 250px;
+}
+
+.main .contenedor .fondo
+{
+	display: inline-block;
+	width: 30%;
+	float: left;
+	position: absolute;
+	height: 850px;
+}
+
+.main .contenedor .fondo img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.main .contenedor .votar
+{
+	width: 30%;
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	float: left;
+	overflow: hidden;
+	padding: 20px;
+	position: relative;
+}
+
+.votar p
+{
+	display: inline-block;
+	width: 100%;
+	font-family: "Montserrat";
+	font-size: 50px;
+	color: #ffffff;
+	font-weight: bold;
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.votar a
+{
+	color :#ffffff;
+	font-size: 40px;
+	display: inline-block;
+	margin: auto;
+	padding: 10px 20px;
+	font-family: "Montserrat";
+	border: 3px solid #ffffff;
+}
+
+.votar .cont_votos
+{
+	width: 100%;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.votar .cont_votos .like
+{
+	display: inline-block;
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	font-size: 40px;
+	padding: 10px;
+	background: #A1A1A9;
+	color: #ffffff;
+}
+
+.votar .cont_votos .votos
+{
+	display: inline-block;
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	font-size: 40px;
+	padding: 10px;
+	background: #ffffff;
+	color: #A1A1A9;
+}
+
+.votar .redes_sociales 
+{
+	display: inline-block;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+
+.votar .redes_sociales p
+{
+	font-size: 30px;
+}
+
+.votar .redes_sociales .redes_soc
+{
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 33.33%;
+	float: left;
+	padding: 10px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.votar .redes_sociales .redes_soc a
+{
+	display: inline-block;
+	padding: 10px;
+	background: #ffffff;
+	border-radius: 50%;
+		-o-border-radius: 50%;
+		-ms-border-radius: 50%;
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+}
+
+.votar .redes_sociales .redes_soc span
+{
+	color: #00A1E4;
+}
+
+
+@media screen and (max-width: 1024px)
+{
+	.inf_part .foto
+	{
+		height: 500px;
+	}
+
+	.inf_part .footer
+	{
+		height: 250px;
+	}
+
+	.main .contenedor .fondo
+	{
+		height: 750px;
+	}
+
+	.votar p
+	{
+		font-size: 40px;
+		margin-bottom: 70px;
+	}
+
+
+	.cont .cont_img .menu .cont_menu a
+	{
+		font-size: 18px;
+		padding: 5px 10px;
+	}
+
+	.cont .cont_img .info .info_1
+	{
+		font-size: 28px;
+	}
+
+	.cont .cont_img .info .info_2
+	{
+		margin-bottom: 10px;
+		font-size: 24px;
+	}
+
+	.cont .cont_img .info a
+	{
+		font-size: 20px;
+	}
+
+	.cont .cont_img .calendar p
+	{
+		font-size: 20px;
+	}
+
+	.cont .cont_img .calendar .calendario .tiempo
+	{
+		padding: 10px;
+	}
+
+	.cont .cont_img .calendar .calendario .tiempo .fecha
+	{
+		font-size: 60px;
+	}
+
+	.cont .cont_img .calendar .calendario .tiempo .inf_time
+	{
+		font-size: 12px;
+	}
+
+	.cont .cont_img .votacion .encabezado
+	{
+		font-size: 50px;
+	}
+
+	.cont .cont_img .votacion .contenido .participante .info_participante
+	{
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 800px)
+{
+	.log p
+	{
+		font-size: 45px;
+	}
+
+	.log div
+	{
+		font-size: 60px;
+	}
+
+	.inf_part .foto
+	{
+		height: 550px;
+		width: 100%;
+		display: inline-block;
+		float: left;
+		overflow: hidden;
+	}
+
+	.inf_part .footer
+	{
+		height: 150px;
+	}
+
+	.main .contenedor .fondo
+	{
+		height: 700px;
+	}
+
+	.votar p
+	{
+		font-size: 28px;
+		margin-bottom: 60px;
+	}
+
+	.votar a
+	{
+		font-size: 26px;
+	}
+
+	.votar .cont_votos .like
+	{
+		font-size: 35px;
+	}
+
+	.votar .cont_votos .votos
+	{
+		font-size: 35px;
+	}
+
+	.votar .redes_sociales p
+	{
+		font-size: 26px;
+	}
+
+
+	.cont .cont_img .menu .cont_menu a
+	{
+		font-size: 16px;
+		padding: 5px;
+	}
+
+	.cont .cont_img .info .info_1
+	{
+		font-size: 22px;
+	}
+
+	.cont .cont_img .info .info_2
+	{
+		font-size: 20px;
+	}
+
+	.cont .cont_img .info a
+	{
+		font-size: 16px;
+	}
+
+	.cont .cont_img .calendar
+	{
+		left: 5%;
+		width: 60%;
+	}
+
+	.cont .cont_img .calendar p
+	{
+		font-size: 16px;
+	}
+
+	.cont .cont_img .calendar .calendario .tiempo
+	{
+		padding: 5px;
+	}
+
+	.cont .cont_img .calendar .calendario .tiempo .fecha
+	{
+		font-size: 30px;
+		padding: 10px;
+	}
+
+	.cont .cont_img .calendar .calendario .tiempo .inf_time
+	{
+		font-size: 10px;
+		padding: 10px;
+	}
+
+	.cont .cont_img .votacion .encabezado
+	{
+		font-size: 30px;
+	}
+
+	.cont .cont_img .votacion .contenido
+	{
+		padding: 20px;
+	}
+
+	.cont .cont_img .votacion .contenido .participante .info_participante
+	{
+		font-size: 22px;
+	}
+}
+
+
+@media screen and (max-width: 480px)
+{
+	.log p
+	{
+		font-size: 20px;
+	}
+
+	.log div
+	{
+		font-size: 25px;
+		padding: 10px 15px;
+	}
+
+	.main .contenedor .inf_part
+	{
+		padding: 5px;
+	}
+
+	.inf_part .foto
+	{
+		height: 300px;
+	}
+
+	.inf_part .footer
+	{
+		height: 100px;
+	}
+
+	.main .contenedor .fondo
+	{
+		height: 400px;
+	}
+
+	.main .contenedor .fondo img
+	{
+		width: 100%;
+		height: 100%;
+	}
+
+	.main .contenedor .votar
+	{
+		padding: 5px;
+	}
+
+	.votar p
+	{
+		font-size: 16px;
+		margin-bottom: 30px;
+	}
+
+	.votar a
+	{
+		font-size: 14px;
+		padding: 10px;
+	}
+
+	.votar .cont_votos
+	{
+		margin-bottom: 10px;
+		padding: 10px;
+	}
+
+	.votar .cont_votos .like
+	{
+		font-size: 16px;
+		padding: 5px;
+	}
+
+	.votar .cont_votos .votos
+	{
+		font-size: 16px;
+		padding: 5px;
+	}
+
+	.votar .redes_sociales p
+	{
+		font-size: 16px;
+	}
+
+	.votar .redes_sociales .redes_soc
+	{
+		padding: 5px;	
+	}
+
+	.votar .redes_sociales .redes_soc a
+	{
+		padding: 5px;
+	}
+
+
+	.cont .cont_img .menu .cont_menu a
+	{
+		font-size: 12px;
+		padding: 2px;
+	}
+
+	.cont .cont_img .info .info_1
+	{
+		font-size: 10px;
+		margin-bottom: 5px;
+	}
+
+	.cont .cont_img .info .info_2
+	{
+		font-size: 10px;
+		margin-bottom: 5px;
+	}
+
+	.cont .cont_img .info a
+	{
+		font-size: 10px;
+		padding: 5px;
+	}
+
+	.cont .cont_img .calendar
+	{
+		top: 10%;
+	}
+
+	.cont .cont_img .calendar p
+	{
+		font-size: 12px;
+	}
+
+	.cont .cont_img .calendar .calendario .tiempo
+	{
+		padding: 5px;
+	}
+
+	.cont .cont_img .calendar .calendario .tiempo .fecha
+	{
+		font-size: 18px;
+		padding: 10px 0;
+	}
+
+	.cont .cont_img .calendar .calendario .tiempo .inf_time
+	{
+		font-size: 10px;
+		padding: 5px 0;
+		text-transform: lowercase;
+	}
+
+	.cont .cont_img .votacion .encabezado
+	{
+		font-size: 18px;
+		padding: 10px;
+	}
+
+	.cont .cont_img .votacion .contenido
+	{
+		padding: 10px;
+	}
+
+	.cont .cont_img .votacion .contenido .participante .info_participante
+	{
+		font-size: 16px;
+		width: 80%;
+		top: 50%;
+	}
+}
